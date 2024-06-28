@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Script</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .tab {
+            overflow: hidden;
+            border-bottom: 1px solid #ccc;
+            background-color: #f1f1f1;
+        }
+        .tab button {
+            background-color: inherit;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: background-color 0.3s;
+            font-size: 17px;
+        }
+        .tab button:hover {
+            background-color: #ddd;
+        }
+        .tab button.active {
+            background-color: #ccc;
+        }
+        .tabcontent {
+            display: none;
+            padding: 6px 12px;
+            border: 1px solid #ccc;
+            border-top: none;
+        }
+        @media (max-width: 600px) {
+            .tab button {
+                padding: 10px;
+                font-size: 14px;
+            }
+        }
+        .time-section {
+            font-weight: bold;
+            color: rgb(44, 44, 235);
+        }
+        .joke {
+            font-style: italic;
+            color: rgb(44, 44);
+            font-weight: bold;
+            color: rgb(235, 44, 44);
+        }
+        .answer  {
+            font-weight: bold;
+            color: rgb(44, 44, 235);
+            
+        }
+    </style>
+</head>
+<body>
+
+<h2>Wedding Script</h2>
+
+<div class="tab">
+    <button class="tablinks" onclick="openTab(event, 'WeddingCeremony')" id="defaultOpen">Wedding Ceremony</button>
+    <button class="tablinks" onclick="openTab(event, 'DinnerReception')">Dinner Reception</button>
+    <button class="tablinks" onclick="openTab(event, 'KahootQuiz')">Kahoot Quiz</button>
+</div>
+
+<div id="WeddingCeremony" class="tabcontent">
+    <h3>WEDDING CEREMONY</h3>
+    <p class="time-section">4:45PM: Welcome Address & House Rules</p>
+    <ul>
+        <li>Family Members to be seated</li>
+        <li>We will be handing over the session to Pastor Sean to conduct the service</li>
+        <li>Silent phones</li>
+        <li>Refrain from holding up phones during ceremony (we have dedicated photographers – etc)</li>
+        <li>Location of washroom: Turn left from the main exit.</li>
+        <li>Turn Chairs to the front for Walk in ceremony</li>
+    </ul>
+    <p class="time-section">4:50PM: Standby for March-in</p>
+    <p class="time-section">4:55PM: Groom & Groomsmen stand front row</p>
+    <p class="time-section">5:00PM: Bridal Procession</p>
+    <p class="time-section">6:00PM: Presentation of Newly Weds - [Emcee Standby]</p>
+    <p class="time-section">6:02PM: Bride & Groom walk back in [Emcee take over from Pastor Sean]</p>
+    <p class="time-section">6:02PM: Announcement</p>
+    <ul>
+        <li>Direct Guests to Foyer</li>
+        <li>Guests to Adjourn to Foyer for Registration, Light Refreshments & Drinks</li>
+        <ul>
+            <li>Drinks (Free Flow)</li>
+            <li>Light Refreshments</li>
+        </ul>
+        <li>Parking Validation (Scan the QR code to be directed to a web portal)</li>
+    </ul>
+    <p class="time-section">6:10PM: Portraits</p>
+    <p>Order of Portraits:</p>
+    <ul>
+        <li>IMMEDIATE FAMILY & PLUS ONES</li>
+        <li>JARED’S PARENTS' FRIENDS</li>
+        <li>JULIA’S PARENTS' CHURCH FRIENDS (DUMC)</li>
+        <li>JULIA’S PARENTS' SIBLINGS, FRIENDS & NEIGHBOURS</li>
+        <li>JULIA'S COLLEAGUES (ACN)</li>
+        <li>JULIA’S FRIENDS (high school, LSE, Kingdom City)</li>
+        <li>JARED’S FRIENDS (include McK, S&, College, Calvary, Kingdom City)</li>
+        <li>WEDDING PARTY (BRIDESMAIDS + GROOMSMEN)</li>
+    </ul>
+</div>
+
+<div id="DinnerReception" class="tabcontent">
+    <h3>DINNER RECEPTION</h3>
+    <p class="time-section">7:00 PM: Welcome Address & House Rules</p>
+    <ul>
+        <li>Welcome & thank everyone for making time to attend the wedding</li>
+        <ul>
+            <li>Singapore<br>
+                <span class="joke">JOKE</span> : "ahh u see those fellas make sure their angpaos are big"
+            </li>
+            <li>Australia (Melbourne)</li>
+            <li>UK</li>
+            <li>USA (1 pax)</li>
+            <li>Kuching (local)</li>
+            <li>Guests from near & far / outstation</li>
+        </ul>
+        <li>House rules:</li>
+        <ul>
+            <li>Washroom Locations</li>
+            <li>Don’t block photographers & videographers</li>
+            <li>Parking Validation (RM 8.80) – Scan the QR Code</li>
+        </ul>
+        <li>Introduction of Emcee [FLASH PHOTO]</li>
+        <li><span class="joke">JOKE</span>: “Wah how time flies, you’re married, Jared’s getting married and I’m getting fat”</li>
+    </ul>
+    <p class="time-section">7:05 PM: Walk-in #1 (Bride & Groom)</p>
+    <ul>
+        <li>Ask guest to stand</li>
+    </ul>
+    <p class="time-section">7:10 PM: Cake Cutting</p>
+    <ul>
+        <li>Invite couple for the Cake Cutting ceremony</li>
+        <li>Symbolism behind:</li>
+        <ul>
+            <li>Symbol of unity (first slice together – ONE SLICE) – promised support and to share each other in their new journey</li>
+            <li>Gesture & sharing of good fortune – bread < cake (happy occasion) – extending their wishes & shared fortune</li>
+            <li>Sweet (CAKES ARE SWEET) – Sweet moments they’ll share together.</li>
+        </ul>
+    </ul>
+    <p class="time-section">7:15 PM: Opening Prayer</p>
+    <ul>
+        <li>Invite Pastor Michael Loon</li>
+    </ul>
+    <p class="time-section">7:20 PM: Dinner Served – Appetizer</p>
+    <p class="time-section">7:50 PM: Speech 1: Groom’s Parents (Mr & Mrs Lee)</p>
+    <p class="time-section">7:55 PM: Speech 2: Bride’s Parents (Mr & Mrs Lim)</p>
+    <p class="time-section">8:00 PM: Main Course (Bride Change Dress)</p>
+    <p class="time-section">8:40 PM: Walk-in #2 (Bride & Groom)</p>
+    <ul>
+        <li>Guest can sit down</li>
+        <li><span class="joke">JOKE</span> : Jared didn’t change</li>
+    </ul>
+    <p class="time-section">8:45 PM: Speech 3: Bridesmaid (Rui Lin)</p>
+    <p class="time-section">8:50 PM: Kahoot Quiz</p>
+    <p class="time-section">9:05 PM: Dessert</p>
+    <p class="time-section">9:15 PM: Pop Champagne & Champagne Toast</p>
+    <ul>
+        <li>Invite couple to stage to pop champagne [POP CHAMPAGNE]</li>
+        <li>Invite immediate family on stage for toasting</li>
+        <li>Order of toast:</li>
+        <ul>
+            <li>Jared’s Dad (Mr Lee)</li>
+            <li>Julia’s Dad (Mr Lim)</li>
+        </ul>
+        <li>INVITATION TO GUEST TO STANDUP & TOAST</li>
+    </ul>
+    <p class="time-section">9:30 PM: Speech 4: Bride & Groom</p>
+    <p class="time-section">9:45 PM: Closing – Thank all Guest</p>
+    <p>REMINDER ANNOUNCEMENT:</p>
+    <ul>
+        <li>Parking Validation</li>
+        <li>Photobooth</li>
+    </ul>
+</div>
+
+<div id="KahootQuiz" class="tabcontent">
+    <h3>KAHOOT QUIZ</h3>
+    <ol>
+        <li>What is the actual height difference of Julia and Jared? <span class="answer">36cm</span></li>
+        <li>How long did Julia and Jared do LDR for? <span class="answer">5 Years</span></li>
+        <li>What food will Julia almost always have whenever she visits Singapore? <span class="answer">Yakun Kaya Toast</span></li>
+        <li>Where did they meet for the first time? <span class="answer">During Malaysia Society Events</span></li>
+        <li>Where did Jared propose to Julia? <span class="answer">Korea</span></li>
+        <li>What is their favourite cuisine of food? <span class="answer">Italian</span></li>
+        <li>What happened during the day Jared proposed? <span class="answer">Julia fell sick & almost lost her voice</span></li>
+        <li>Where will Jared & Julia definitely be going for their honeymoon? <span class="answer">Dolomites, Italy</span></li>
+        <li>What guitar does Jared use when he serves on Sunday? <span class="answer">Suhr</span></li>
+        <li>Which of the following is Julia's actual hidden talent? <span class="answer">She can eat as much as Jared</span></li>
+        <li>Who said I love you first? <span class="answer">Jared</span></li>
+        <li>What was the first thing Jared ever cooked for Julia? (or can be favourite dish) <span class="answer">Risotto</span></li>
+        <li>What handbag did Julia like so much that she bought two of it in different colors? <span class="answer">Lady Dior</span></li>
+        <li>What did Jared & Julia have on their first date in London? <span class="answer">Japanese food at Covent Garden</span></li>
+    </ol>
+</div>
+
+<script>
+    function openTab(evt, tabName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(tabName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+    document.getElementById("defaultOpen").click();
+</script>
+
+</body>
+</html>
